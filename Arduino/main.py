@@ -6,7 +6,7 @@ from datetime import datetime
 # === Konfiguration ===
 PORT = "COM3"           # Windows: "COM3", Linux: "/dev/ttyUSB0", Mac: "/dev/tty.usbmodem..."
 BAUD = 9600
-RAD_UMFANG_M = 1.5      # Umfang des Schwungrads/Rads in Metern – anpassen!
+RAD_UMFANG_M = 1.5      # Umfang des Schwungrads/Rads in Metern
 OUTPUT_FILE = f"ergometer_{datetime.now():%Y%m%d_%H%M%S}.csv"
 
 def main():
